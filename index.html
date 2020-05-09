@@ -1,657 +1,884 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Автошкола Приоритет в г.Таганроге</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
-    <link rel="stylesheet" href="/css/fonts.css">
-</head>
-<body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дистанционное обучение в автошколе</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div class="line_above">
-            <div class="line_above_logo">
-                <a href="#">
-                    <img src="/icons/Logo.png" alt="Логотип компании">
-                </a>
-            </div>
-            <div class="line_above_login_mobile">
-                <img src="/icons/Enter.svg" alt="Вход/Регистрация">
-            </div>
-            <div class="line_above_menu_mobile">
-               <div>
-                    <div class="line_above_menu_mobile_line">
-                    </div>
-                    <div class="line_above_menu_mobile_line">
-                    </div>
-                    <div class="line_above_menu_mobile_line">
-                    </div>
-               </div>
-            </div>
-            <div class="line_above_menu">
-                <ul>
-                    <li class="line_above_menu_item">
-                        <a href="#advantages">Преимущества</a> 
-                    </li>
-                    <li class="line_above_menu_item">
-                        <a href="#price">Цены</a> 
-                    </li>
-                    <li class="line_above_menu_item">
-                        <a href="#free">Пробный период</a> 
-                    </li>
-                    <li class="line_above_menu_item">
-                        <a href="#education">Об обучении</a> 
-                    </li>
-                    <li class="line_above_menu_item">
-                        <a href="#questions">Вопрос-Ответ</a> 
-                    </li>
-                </ul>
-            </div>
-            <div class="line_above_right_side">
-                <div class="line_above_right_side_city">
-                    г. Таганрог
-                </div>
-                <div class="line_above_right_side_phone">
-                    +7 (903) 406-57-59
-                </div>
-                <div class="line_above_right_side_login_registration">
-                    Вход/Регистрация
-                </div>
-            </div>
-        </div>
-        <div class="under_line_mobile">
-            <div class="under_line_mobile_city">
-                г. Таганрог
-            </div>
-            <div class="under_line_mobile_phone">
-                +7 (903) 406-57-59
-            </div>
-        </div>
-        <div class="menu_tablet">
-            <ul>
-                <li class="menu_tablet_item">
-                    <a href="#advantages">Преимущества</a> 
-                </li>
-                <li class="menu_tablet_item">
-                    <a href="#price">Цены</a> 
-                </li>
-                <li class="menu_tablet_item">
-                    <a href="#free">Пробный период</a> 
-                </li>
-                <li class="menu_tablet_item">
-                    <a href="#education">Об обучении</a> 
-                </li>
-                <li class="menu_tablet_item">
-                    <a href="#questions">Вопрос-Ответ</a> 
-                </li>
-            </ul>
-        </div>
+      <a class="logo" href="/index.html">
+        <img src="/icons/main_icon.png" alt="лого" />
+      </a>
+      <nav>
+        <ul>
+          <li>Программа курса</li>
+          <li>Преподаватели</li>
+          <li>Цена</li>
+          <li>Расписание</li>
+          <li>Отзывы</li>
+        </ul>
+      </nav>
+      <div class="authorization">
+        <img src="/icons/account.png" alt="аккаунт" />
+        <a href="" class="authorization_enter">Вход</a>
+        <span> / </span>
+        <a href="" class="authorization_enter">Регистрация</a>
+      </div>
     </header>
 
-    <section class="main">
-        <div class="main_narrow">
-            <h1>
-                Обучение от 5900 р.
-            </h1>
-            <div class="main_narrow_text">
-                Составьте индивидуальную программу обучения. Платите только за то, что Вам действительно нужно
+    <main>
+      <section class="main">
+        <div class="main_promo">
+          <div class="main_promo_decoration"></div>
+          <div class="main_promo_above_title">
+            Теоретический курс
+          </div>
+          <h1 class="main_promo_title">
+            Изучай ПДД
+            <br />дистанционно
+          </h1>
+          <div class="main_promo_description">
+            Интерактивные онлайн-занятия.
+            <br />Статистика успеваемости. Решение билетов. <br />Подготовка к
+            экзамену в ГИБДД.
+          </div>
+          <button class="main_green_button">
+            Начать обучение
+          </button>
+        </div>
+      </section>
+      <section class="audience">
+        <h2>Для кого этот курс?</h2>
+        <div class="audience_container">
+          <div class="audience_container_item">
+            <div class="audience_container_item_picture">
+              <img src="/img/Audience1.jpg" alt="Аудитория 1" />
             </div>
-            <button class="button">
-                ХОЧУ ПРАВА
-            </button>
+            <div class="audience_container_item_text">
+              Для тех, кто планирует учиться в автошколе и хочет сэкономить на
+              обучении, изучив теорию самостоятельно
+            </div>
+            <div class="audience_container_item_check"></div>
+          </div>
+          <div class="audience_container_item">
+            <div class="audience_container_item_picture">
+              <img src="/img/Audience2.jpg" alt="Аудитория 2" />
+            </div>
+            <div class="audience_container_item_text">
+              Для тех, кто уже поступил в автошколу, но не может или не хочет
+              посещать теорию в учебном классе
+            </div>
+            <div class="audience_container_item_check"></div>
+          </div>
+          <div class="audience_container_item">
+            <div class="audience_container_item_picture">
+              <img src="/img/Audience3.jpg" alt="Аудитория 3" />
+            </div>
+            <div class="audience_container_item_text">
+              Для тех, кто желает самостоятельно подготовиться к экзамену в
+              ГИБДД
+            </div>
+            <div class="audience_container_item_check"></div>
+          </div>
+          <div class="audience_container_item">
+            <div class="audience_container_item_picture">
+              <img src="/img/Audience4.jpg" alt="Аудитория 4" />
+            </div>
+            <div class="audience_container_item_text">
+              Для тех, кто хочет освежить знания по ПДД и быть в курсе всех
+              актуальных изменений
+            </div>
+            <div class="audience_container_item_check"></div>
+          </div>
         </div>
-    </section>
-
-    <section id="advantages" class="advantages">
-        <div class="text_under_block_header">
-            ПРЕИМУЩЕСТВА
+      </section>
+      <section class="content">
+        <h2>Что мы предлагаем?</h2>
+        <div class="content_wrapper">
+          <ul
+            class="nav nav-tabs content_wrapper_tab"
+            id="content_tab"
+            role="tablist"
+          >
+            <li class="nav-item content_wrapper_tab_item">
+              <a
+                class="nav-link active"
+                id="unique-tab"
+                data-toggle="tab"
+                href="#unique"
+                role="tab"
+                aria-controls="unique"
+                aria-selected="true"
+                >Уникальный контент</a
+              >
+            </li>
+            <li class="nav-item content_wrapper_tab_item">
+              <a
+                class="nav-link"
+                id="questions-tab"
+                data-toggle="tab"
+                href="#questions"
+                role="tab"
+                aria-controls="questions"
+                aria-selected="false"
+                >Интерактивные опросы</a
+              >
+            </li>
+            <li class="nav-item content_wrapper_tab_item">
+              <a
+                class="nav-link"
+                id="exams-tab"
+                data-toggle="tab"
+                href="#exams"
+                role="tab"
+                aria-controls="exams"
+                aria-selected="false"
+                >Экзамен ГИБДД</a
+              >
+            </li>
+            <li class="nav-item content_wrapper_tab_item">
+              <a
+                class="nav-link"
+                id="tickets-tab"
+                data-toggle="tab"
+                href="#tickets"
+                role="tab"
+                aria-controls="tickets"
+                aria-selected="false"
+                >Экзаменационные билеты</a
+              >
+            </li>
+            <li class="nav-item content_wrapper_tab_item">
+              <a
+                class="nav-link"
+                id="stats-tab"
+                data-toggle="tab"
+                href="#stats"
+                role="tab"
+                aria-controls="stats"
+                aria-selected="false"
+                >Статистика</a
+              >
+            </li>
+          </ul>
+          <div
+            class="tab-content content_wrapper_tab_item_box"
+            id="content_tab_content"
+          >
+            <div
+              class="tab-pane content_wrapper_tab_item_box_item fade show active"
+              id="unique"
+              role="tabpanel"
+              aria-labelledby="unique-tab"
+            >
+              <div class="content_wrapper_tab_item_box_item_description">
+                Качественные лекции с наглядными 3д иллюстрациями
+              </div>
+              <div
+                class="main-carousel content_wrapper_tab_item_box_item_carousel"
+              >
+                <div
+                  class="carousel-cell content_wrapper_tab_item_box_item_carousel_cell"
+                >
+                  <img src="/img/unique1.jpg" alt="unique_pic1" />
+                </div>
+                <div
+                  class="carousel-cell content_wrapper_tab_item_box_item_carousel_cell"
+                >
+                  <img src="/img/unique2.jpg" alt="unique_pic2" />
+                </div>
+                <div
+                  class="carousel-cell content_wrapper_tab_item_box_item_carousel_cell"
+                >
+                  <img src="/img/unique3.jpg" alt="unique_pic3" />
+                </div>
+                <div
+                  class="carousel-cell content_wrapper_tab_item_box_item_carousel_cell"
+                >
+                  <img src="/img/unique4.jpg" alt="unique_pic4" />
+                </div>
+                <div
+                  class="carousel-cell content_wrapper_tab_item_box_item_carousel_cell"
+                >
+                  <img src="/img/unique5.jpg" alt="unique_pic5" />
+                </div>
+                <div
+                  class="carousel-cell content_wrapper_tab_item_box_item_carousel_cell"
+                >
+                  <img src="/img/unique6.jpg" alt="unique_pic6" />
+                </div>
+              </div>
+            </div>
+            <div
+              class="tab-pane content_wrapper_tab_item_box_item fade"
+              id="questions"
+              role="tabpanel"
+              aria-labelledby="questions-tab"
+            >
+              fasdkl hj fhjaskl hjkfl sdhajk
+            </div>
+            <div
+              class="tab-pane content_wrapper_tab_item_box_item fade"
+              id="exams"
+              role="tabpanel"
+              aria-labelledby="exams-tab"
+            >
+              fdsahjklhjkl fhjdaskl hjkfl dhajkl hjfdsk
+            </div>
+            <div
+              class="tab-pane content_wrapper_tab_item_box_item fade"
+              id="tickets"
+              role="tabpanel"
+              aria-labelledby="tickets-tab"
+            >
+              fashjk hjklf hdsjakl hjfkl dshjk flhdjska lhfjklsda
+            </div>
+            <div
+              class="tab-pane content_wrapper_tab_item_box_item fade"
+              id="stats"
+              role="tabpanel"
+              aria-labelledby="stats-tab"
+            >
+              fhasjkl hfjkdl shfjkl dashjfk hdsjkl fhjdks lhfj kdlsh jfkldsa
+            </div>
+          </div>
         </div>
-        <h2 class="block_header">
-            Почему стоит учиться у нас?
-        </h2>
+      </section>
+      <section class="advantages">
+        <h2>Почему онлайн-обучение лучше?</h2>
         <div class="advantages_container">
-            <div class="advantages_container_item">
-                <div class="advantages_container_item_icon">
-                    <img src="/icons/Money.png" alt="Выгодно">
-                </div>
-                <div class="advantages_container_item_label">
-                    <div class="advantages_container_item_label_text">
-                        Выгодно
-                    </div>
-                </div>
-                <div class="advantages_container_item_text">
-                    Составьте индивидуальную программу обучения. Платите только за то, что Вам действительно нужно
-                </div>
+          <div class="advantages_container_item">
+            <div class="advantages_container_item_logo">
+              <img src="/icons/advantages1.png" alt="advantages1" />
             </div>
-            <div class="advantages_container_item">
-                <div class="advantages_container_item_icon">
-                    <img src="/icons/Bed.png" alt="Комфортно">
-                </div>
-                <div class="advantages_container_item_label">
-                    <div class="advantages_container_item_label_text">
-                        Комфортно
-                    </div>
-                </div>
-                <div class="advantages_container_item_text">
-                    Занимайтесь с преподавателем онлайн в удобном для Вас месте. Назначайте занятия с инструктором в удобное время
-                </div>
+            <div class="advantages_container_item_header">ДЕШЕВЛЕ</div>
+            <div class="advantages_container_item_description">
+              Онлайн-обучение стоит в несколько раз меньше, чем обучение в
+              классе
             </div>
-            <div class="advantages_container_item">
-                <div class="advantages_container_item_icon">
-                    <img src="/icons/Time.png" alt="Быстро">
-                </div>
-                <div class="advantages_container_item_label">
-                    <div class="advantages_container_item_label_text">
-                        Быстро
-                    </div>
-                </div>
-                <div class="advantages_container_item_text">
-                    Обучитесь за 1,5 месяца по ускоренной программе без снижения качества
-                </div>
+          </div>
+          <div class="advantages_container_item">
+            <div class="advantages_container_item_logo">
+              <img src="/icons/advantages2.png" alt="advantages2" />
             </div>
+            <div class="advantages_container_item_header">ЭКОНОМНЕЕ</div>
+            <div class="advantages_container_item_description">
+              Экономьте время и деньги на дорогу
+            </div>
+          </div>
+          <div class="advantages_container_item">
+            <div class="advantages_container_item_logo">
+              <img src="/icons/advantages3.png" alt="advantages3" />
+            </div>
+            <div class="advantages_container_item_header">УДОБНЕЕ</div>
+            <div class="advantages_container_item_description">
+              Занимайтесь в любом месте и в любое время
+            </div>
+          </div>
+          <div class="advantages_container_item">
+            <div class="advantages_container_item_logo">
+              <img src="/icons/advantages4.png" alt="advantages4" />
+            </div>
+            <div class="advantages_container_item_header">БЫСТРЕЕ</div>
+            <div class="advantages_container_item_description">
+              Выбирайте комфортный Вам темп обучения
+            </div>
+          </div>
+          <div class="advantages_container_item">
+            <div class="advantages_container_item_logo">
+              <img src="/icons/advantages5.png" alt="advantages5" />
+            </div>
+            <div class="advantages_container_item_header">ИНТЕРАКТИВНЕЕ</div>
+            <div class="advantages_container_item_description">
+              Закрепление знаний сразу после разбора темы
+            </div>
+          </div>
+          <div class="advantages_container_item">
+            <div class="advantages_container_item_logo">
+              <img src="/icons/advantages6.png" alt="advantages6" />
+            </div>
+            <div class="advantages_container_item_header">ЭФФЕКТИВНЕЕ</div>
+            <div class="advantages_container_item_description">
+              Онлайн-обучение стоит в несколько раз меньше, чем обучение в
+              классе
+            </div>
+          </div>
         </div>
-    </section>
-
-    <section id="price" class="price">
-        <div class="text_under_block_header">
-            КОНСТРУКТОР ЦЕНЫ
-        </div>
-        <h2 class="block_header block_header_dark_block">
-            Сколько стоит обучение?
-        </h2>
-        <div>
-            <div class="price_block">
-                <div class="price_block_header">
-                    Срок обучения
-                </div>
-                <span class="price_block_question">
-                    Как подобрать срок обучения?
-                </span>
-                <div class="price_block_selection">
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="period" id="period_standart" checked>
-                        <label for="period_standart">
-                            <div class="price_block_selection_item_label">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Стандартный
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        3 месяца
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="period" id="period_quick">
-                        <label for="period_quick">
-                            <div class="price_block_selection_item_label">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Ускоренный
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        1,5 месяца
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    + 4000 руб.
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="price_block">
-                <div class="price_block_header">
-                    Теория
-                </div>
-                <span class="price_block_question">
-                    Какой курс подходит Вам?
-                </span>
-                <div class="price_block_selection">
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="theory" id="theory_standart" checked>
-                        <label for="theory_standart">
-                            <div class="price_block_selection_item_label big_selection">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Базовый курс
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        18 лекций
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="theory" id="theory_extended">
-                        <label for="theory_extended">
-                            <div class="price_block_selection_item_label big_selection">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Базовый + Специальный курс по устройству автомобиля
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        20 лекций
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    + 850 руб.
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="price_block">
-                <div class="price_block_header">
-                    Вождение
-                </div>
-                <span class="price_block_question">
-                    Сколько часов по вождению необходимо?
-                </span>
-                <div class="price_block_selection">
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="driving" id="driving_professional" checked>
-                        <label for="driving_professional">
-                            <div class="price_block_selection_item_label">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Профи
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        2 занятия
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="driving" id="driving_standart">
-                        <label for="driving_standart">
-                            <div class="price_block_selection_item_label">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Стандарт
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        12 занятий
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                        + 4000 руб.
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="driving" id="driving_strong">
-                        <label for="driving_strong">
-                            <div class="price_block_selection_item_label">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Усиленный
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        24 занятия
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    + 8800 руб.
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="driving" id="driving_strong_plus">
-                        <label for="driving_strong_plus">
-                            <div class="price_block_selection_item_label">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Усиленный +
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        36 занятий
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    + 13600 руб.
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="price_block">
-                <div class="price_block_header">
-                    Экзамены в ГИБДД
-                </div>
-                <span class="price_block_question">
-                    В каких случаях потребуется сопровождение в ГИБДД?
-                </span>
-                <div class="price_block_selection">
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="gibdd" id="gibdd_standart" checked>
-                        <label for="gibdd_standart">
-                            <div class="price_block_selection_item_label big_selection">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Экзаменационный пакет
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        Документы для сдачи в ГИБДД
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                    <div class="price_block_selection_item">
-                        <input type="radio" class="price_block_selection_item_radio" name="gibdd" id="gibdd_extended">
-                        <label for="gibdd_extended">
-                            <div class="price_block_selection_item_label big_selection">
-                                <div class="price_block_selection_item_label_information">
-                                    <div class="price_block_selection_item_label_information_header">
-                                        Экзаменационный пакет + Сопровождение в ГИБДД
-                                    </div>
-                                    <div class="price_block_selection_item_label_information_text">
-                                        Документы + Подача автомобиля для сдачи экзаменов в ГИБДД
-                                    </div>
-                                </div>
-                                <div class="price_block_selection_item_label_amount">
-                                    + 1500 руб.
-                                </div>
-                            </div>
-                        </label>
-                    </div>
-                </div>
-            </div>
-            <div class="price_viewer">
-                <div class="price_viewer_information">
-                    <div class="price_viewer_information_text">
-                        Итого за обучение:
-                    </div>
-                    <div class="price_viewer_information_cost">
-                        5900 руб.
-                    </div>
-                </div>
-            </div>
-            
-        </div>
-        <button class="button button_in_block">
-            УЧИТЬСЯ НА ПРАВА
+        <button class="main_green_button">
+          Начать обучение
         </button>
-    </section>
-
-    <section id="free" class="free">
-        <div class="text_under_block_header">
-            БЕСПЛАТНЫЙ ПЕРИОД
+      </section>
+      <section class="subjects">
+        <h2>Что Вы будете изучать?</h2>
+        <div class="subjects_container">
+          <div class="subjects_container_box">
+            <ul
+              class="nav nav-tabs subjects_container_box_tabs"
+              id="subjects_tab"
+              role="tablist"
+            >
+              <li class="nav-item subjects_container_box_tabs_item">
+                <a
+                  class="nav-link active"
+                  id="pdd-tab"
+                  data-toggle="tab"
+                  href="#pdd"
+                  role="tab"
+                  aria-controls="pdd"
+                  aria-selected="true"
+                  >Правила дорожного движения</a
+                >
+              </li>
+              <li class="nav-item subjects_container_box_tabs_item">
+                <a
+                  class="nav-link"
+                  id="medicine-tab"
+                  data-toggle="tab"
+                  href="#medicine"
+                  role="tab"
+                  aria-controls="medicine"
+                  aria-selected="false"
+                  >Первая помощь при ДТП</a
+                >
+              </li>
+              <li class="nav-item subjects_container_box_tabs_item">
+                <a
+                  class="nav-link"
+                  id="behavior-tab"
+                  data-toggle="tab"
+                  href="#behavior"
+                  role="tab"
+                  aria-controls="behavior"
+                  aria-selected="false"
+                  >Психофизиологические основы деятельности водителя</a
+                >
+              </li>
+              <li class="nav-item subjects_container_box_tabs_item">
+                <a
+                  class="nav-link"
+                  id="control-tab"
+                  data-toggle="tab"
+                  href="#control"
+                  role="tab"
+                  aria-controls="control"
+                  aria-selected="false"
+                  >Основы управления транспортными средствами</a
+                >
+              </li>
+              <li class="nav-item subjects_container_box_tabs_item">
+                <a
+                  class="nav-link"
+                  id="responsibility-tab"
+                  data-toggle="tab"
+                  href="#responsibility"
+                  role="tab"
+                  aria-controls="responsibility"
+                  aria-selected="false"
+                  >Ответственность за нарушение в сфере дорожного движения</a
+                >
+              </li>
+              <li class="nav-item subjects_container_box_tabs_item">
+                <a
+                  class="nav-link"
+                  id="device-tab"
+                  data-toggle="tab"
+                  href="#device"
+                  role="tab"
+                  aria-controls="device"
+                  aria-selected="false"
+                  >Устройство и техническое обслуживание ТС</a
+                >
+              </li>
+            </ul>
+            <div
+              class="tab-content subjects_container_box_description"
+              id="subjects_tab_content"
+            >
+              <div
+                class="tab-pane subjects_container_box_description_item fade show active"
+                id="pdd"
+                role="tabpanel"
+                aria-labelledby="pdd-tab"
+              >
+                <div class="subjects_container_box_description_item_pic">
+                  <img src="/img/PDD.jpg" alt="ПДД" />
+                </div>
+              </div>
+              <div
+                class="tab-pane subjects_container_box_description_item fade"
+                id="medicine"
+                role="tabpanel"
+                aria-labelledby="medicine-tab"
+              >
+                <div class="subjects_container_box_description_item_pic">
+                  <img src="/img/medicine.jpg" alt="ПДД" />
+                  <div
+                    class="subjects_container_box_description_item_pic_hours"
+                  >
+                    Продолжительность: 4 часа
+                  </div>
+                </div>
+                <div class="subjects_container_box_description_item_teacher">
+                  <div
+                    class="subjects_container_box_description_item_teacher_header"
+                  >
+                    Преподаватель
+                  </div>
+                  <div
+                    class="subjects_container_box_description_item_teacher_photo"
+                  >
+                    <img
+                      src="/img/medicine_teacher.jpg"
+                      alt="Преподаватель по медицине"
+                    />
+                  </div>
+                  <div
+                    class="subjects_container_box_description_item_teacher_name"
+                  >
+                    Ольга Васютина
+                  </div>
+                  <div
+                    class="subjects_container_box_description_item_teacher_decoration"
+                  ></div>
+                  <div
+                    class="subjects_container_box_description_item_teacher_qualification"
+                  >
+                    Преподаватель по первой медицинской помощи
+                  </div>
+                </div>
+              </div>
+              <div
+                class="tab-pane subjects_container_box_description_item fade"
+                id="behavior"
+                role="tabpanel"
+                aria-labelledby="behavior-tab"
+              >
+                Психофизиологические
+              </div>
+              <div
+                class="tab-pane subjects_container_box_description_item fade"
+                id="control"
+                role="tabpanel"
+                aria-labelledby="control-tab"
+              >
+                Управление
+              </div>
+              <div
+                class="tab-pane subjects_container_box_description_item fade"
+                id="responsibility"
+                role="tabpanel"
+                aria-labelledby="responsibility-tab"
+              >
+                Ответственность
+              </div>
+              <div
+                class="tab-pane subjects_container_box_description_item fade"
+                id="device"
+                role="tabpanel"
+                aria-labelledby="device-tab"
+              >
+                Устройство
+              </div>
+            </div>
+          </div>
+          <a href="#" class="subjects_container_demo_link"
+            >ПОСМОТРЕТЬ ДЕМОНСТРАЦИОННЫЙ УРОК >></a
+          >
         </div>
-        <h2 class="block_header">
-            Убедитесь в качестве обучения, прежде чем платить!
-        </h2>
-        <div class="free_container">
-            <div class="free_container_item">
-                <img src="/icons/Gift.png" alt="Подарок">
-            </div>
-            <div class="free_container_item">
-                <div class="free_container_item_text">
-                    Обучайтесь 2 недели без оплаты
-                    <br>
-                    <br>
-                    Посещайте онлайн лекции по теории и занятия по вождению
-                    <br>
-                    <br>
-                    Оцените качество наших услуг и сделайте правильный выбор!
+      </section>
+      <section class="reviews">
+        <h2>Что говорят наши ученики?</h2>
+        <div class="reviews-carousel reviews_carousel">
+          <div class="carousel-cell reviews_carousel_cell">
+            <div class="reviews_carousel_cell_content">
+              <div class="reviews_carousel_cell_content_student">
+                <div class="reviews_carousel_cell_content_student_photo">
+                  <img src="/icons/review1.png" alt="Фото" />
                 </div>
+                <div class="reviews_carousel_cell_content_student_name">
+                  Анна <br />Михайлова
+                </div>
+              </div>
+              <div class="reviews_carousel_cell_content_text">
+                Как раз перед карантином записалась в автошколу в своем городе,
+                но к сожалению у них не было онлайн обучения. Я уже расстроилась
+                и хотела переводиться в другую школу, но чуть позже наткнулась
+                на даный сайт. И моему счастью не было предела! Мало того, что я
+                за копейки получила качественный теоретический курс, при этом в
+                автошколе, в которую я изначально записалась, мне дали скидку
+                5000 рублей за то, что я прохожу обучение теории на данном
+                сайте.
+              </div>
+              <div class="reviews_carousel_cell_content_social">
+                <div class="reviews_carousel_cell_content_social_text">
+                  Ссылки на соц.сети ученика
+                </div>
+                <div class="reviews_carousel_cell_content_social_links">
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_vk"
+                    ></div
+                  ></a>
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_instagram"
+                    ></div
+                  ></a>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="carousel-cell reviews_carousel_cell">
+            <div class="reviews_carousel_cell_content">
+              <div class="reviews_carousel_cell_content_student">
+                <div class="reviews_carousel_cell_content_student_photo">
+                  <img src="/icons/review1.png" alt="Фото" />
+                </div>
+                <div class="reviews_carousel_cell_content_student_name">
+                  Анна <br />Михайлова
+                </div>
+              </div>
+              <div class="reviews_carousel_cell_content_text">
+                Как раз перед карантином записалась в автошколу в своем городе,
+                но к сожалению у них не было онлайн обучения. Я уже расстроилась
+                и хотела переводиться в другую школу, но чуть позже наткнулась
+                на даный сайт. И моему счастью не было предела! Мало того, что я
+                за копейки получила качественный теоретический курс, при этом в
+                автошколе, в которую я изначально записалась, мне дали скидку
+                5000 рублей за то, что я прохожу обучение теории на данном
+                сайте.
+              </div>
+              <div class="reviews_carousel_cell_content_social">
+                <div class="reviews_carousel_cell_content_social_text">
+                  Ссылки на соц.сети ученика
+                </div>
+                <div class="reviews_carousel_cell_content_social_links">
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_vk"
+                    ></div
+                  ></a>
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_instagram"
+                    ></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell reviews_carousel_cell">
+            <div class="reviews_carousel_cell_content">
+              <div class="reviews_carousel_cell_content_student">
+                <div class="reviews_carousel_cell_content_student_photo">
+                  <img src="/icons/review1.png" alt="Фото" />
+                </div>
+                <div class="reviews_carousel_cell_content_student_name">
+                  Анна <br />Михайлова
+                </div>
+              </div>
+              <div class="reviews_carousel_cell_content_text">
+                Как раз перед карантином записалась в автошколу в своем городе,
+                но к сожалению у них не было онлайн обучения. Я уже расстроилась
+                и хотела переводиться в другую школу, но чуть позже наткнулась
+                на даный сайт. И моему счастью не было предела! Мало того, что я
+                за копейки получила качественный теоретический курс, при этом в
+                автошколе, в которую я изначально записалась, мне дали скидку
+                5000 рублей за то, что я прохожу обучение теории на данном
+                сайте.
+              </div>
+              <div class="reviews_carousel_cell_content_social">
+                <div class="reviews_carousel_cell_content_social_text">
+                  Ссылки на соц.сети ученика
+                </div>
+                <div class="reviews_carousel_cell_content_social_links">
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_vk"
+                    ></div
+                  ></a>
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_instagram"
+                    ></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell reviews_carousel_cell">
+            <div class="reviews_carousel_cell_content">
+              <div class="reviews_carousel_cell_content_student">
+                <div class="reviews_carousel_cell_content_student_photo">
+                  <img src="/icons/review1.png" alt="Фото" />
+                </div>
+                <div class="reviews_carousel_cell_content_student_name">
+                  Анна <br />Михайлова
+                </div>
+              </div>
+              <div class="reviews_carousel_cell_content_text">
+                Как раз перед карантином записалась в автошколу в своем городе,
+                но к сожалению у них не было онлайн обучения. Я уже расстроилась
+                и хотела переводиться в другую школу, но чуть позже наткнулась
+                на даный сайт. И моему счастью не было предела! Мало того, что я
+                за копейки получила качественный теоретический курс, при этом в
+                автошколе, в которую я изначально записалась, мне дали скидку
+                5000 рублей за то, что я прохожу обучение теории на данном
+                сайте.
+              </div>
+              <div class="reviews_carousel_cell_content_social">
+                <div class="reviews_carousel_cell_content_social_text">
+                  Ссылки на соц.сети ученика
+                </div>
+                <div class="reviews_carousel_cell_content_social_links">
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_vk"
+                    ></div
+                  ></a>
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_instagram"
+                    ></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell reviews_carousel_cell">
+            <div class="reviews_carousel_cell_content">
+              <div class="reviews_carousel_cell_content_student">
+                <div class="reviews_carousel_cell_content_student_photo">
+                  <img src="/icons/review1.png" alt="Фото" />
+                </div>
+                <div class="reviews_carousel_cell_content_student_name">
+                  Анна <br />Михайлова
+                </div>
+              </div>
+              <div class="reviews_carousel_cell_content_text">
+                Как раз перед карантином записалась в автошколу в своем городе,
+                но к сожалению у них не было онлайн обучения. Я уже расстроилась
+                и хотела переводиться в другую школу, но чуть позже наткнулась
+                на даный сайт. И моему счастью не было предела! Мало того, что я
+                за копейки получила качественный теоретический курс, при этом в
+                автошколе, в которую я изначально записалась, мне дали скидку
+                5000 рублей за то, что я прохожу обучение теории на данном
+                сайте.
+              </div>
+              <div class="reviews_carousel_cell_content_social">
+                <div class="reviews_carousel_cell_content_social_text">
+                  Ссылки на соц.сети ученика
+                </div>
+                <div class="reviews_carousel_cell_content_social_links">
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_vk"
+                    ></div
+                  ></a>
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_instagram"
+                    ></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-cell reviews_carousel_cell">
+            <div class="reviews_carousel_cell_content">
+              <div class="reviews_carousel_cell_content_student">
+                <div class="reviews_carousel_cell_content_student_photo">
+                  <img src="/icons/review1.png" alt="Фото" />
+                </div>
+                <div class="reviews_carousel_cell_content_student_name">
+                  Анна <br />Михайлова
+                </div>
+              </div>
+              <div class="reviews_carousel_cell_content_text">
+                Как раз перед карантином записалась в автошколу в своем городе,
+                но к сожалению у них не было онлайн обучения. Я уже расстроилась
+                и хотела переводиться в другую школу, но чуть позже наткнулась
+                на даный сайт. И моему счастью не было предела! Мало того, что я
+                за копейки получила качественный теоретический курс, при этом в
+                автошколе, в которую я изначально записалась, мне дали скидку
+                5000 рублей за то, что я прохожу обучение теории на данном
+                сайте.
+              </div>
+              <div class="reviews_carousel_cell_content_social">
+                <div class="reviews_carousel_cell_content_social_text">
+                  Ссылки на соц.сети ученика
+                </div>
+                <div class="reviews_carousel_cell_content_social_links">
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_vk"
+                    ></div
+                  ></a>
+                  <a href="#"
+                    ><div
+                      class="reviews_carousel_cell_content_social_links_instagram"
+                    ></div
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <button class="button button_in_block button_yellow">
-            ПОПРОБОВАТЬ БЕСПЛАТНО
-        </button>
-    </section>
-
-    <section id="education" class="education">
-        <div class="text_under_block_header">
-            ОБ ОБУЧЕНИИ
+        <div class="reviews_links">
+          <a href="#" class="reviews_links_item">Оставить отзыв об обучении</a>
+          <a href="#" class="reviews_links_item"
+            >Узнать больше об Автошколе Приоритет</a
+          >
         </div>
-        <h2 class="block_header block_header_dark_block">
-            Где и как проходят занятия?
-        </h2>
-        <h3 class="education_block_header">
-            Теория
-        </h3>
-        <div class="education_block_text">
-            Занятия проходят онлайн вместе с преподавателем
-            <br><br>
-            В группе не более 10 учеников
+      </section>
+      <section class="price">
+        <h2>Сколько стоит полный курс?</h2>
+        <div class="price_view">
+          <div class="price_view_box">
+            <div class="price_view_box_item">
+              <div class="price_view_box_item_decoration"></div>
+              <div class="price_view_box_item_pic">
+                <img src="/img/in_class.jpg" alt="Занятия в классе" />
+              </div>
+              <div class="price_view_box_item_type">Теория в классе</div>
+              <div class="price_view_box_item_cost">
+                от 5 000 до 10 000 руб.
+              </div>
+            </div>
+            <div class="main_green_button price_view_box_button red">
+              Начать обучение
+            </div>
+          </div>
+          <div class="price_view_box">
+            <div class="price_view_box_item green_light">
+              <div class="price_view_box_item_decoration green"></div>
+              <div class="price_view_box_item_pic">
+                <img src="/img/online.jpg" alt="Занятия онлайн" />
+              </div>
+              <div class="price_view_box_item_type">Онлайн-обучение у нас</div>
+              <div class="price_view_box_item_cost">490 руб.</div>
+            </div>
+            <button class="main_green_button price_view_box_button">
+              Начать обучение
+            </button>
+          </div>
         </div>
-        <div class="education_lines">
-            <div class="education_lines_item">
-                <div class="education_lines_item_text">
-                    Демонстрационный урок
-                </div>
+      </section>
+      <section class="questions">
+        <h2>Вопросы и ответы</h2>
+        <div class="questions_faq">
+          <div class="questions_faq_item">
+            <div class="questions_faq_item_text">
+              А где мне можно пройти уроки по вождению?
             </div>
-            <div class="education_lines_hidden">
-                <div class="education_lines_hidden_text">
-                    Здесь пока ничего нет
-                </div>
+          </div>
+          <div class="questions_faq_hidden">
+            <div class="questions_faq_hidden_text">
+              Здесь я напишу ответ на тот самый вопрос, который записан в данном
+              блоке. Не уверен, что он будет таким же длинным как этот, но все
+              же
             </div>
-            <div class="education_lines_item">
-                <div class="education_lines_item_text">
-                    Расписание групп
-                </div>
+          </div>
+          <div class="questions_faq_item">
+            <div class="questions_faq_item_text">
+              Как я могу получить скидку если я уже учусь в автошколе?
             </div>
-            <div class="education_lines_hidden">
-                <div class="education_lines_hidden_text">
-                    Здесь пока ничего нет
-                </div>
+          </div>
+          <div class="questions_faq_hidden">
+            <div class="questions_faq_hidden_text">
+              Здесь я напишу ответ на тот самый вопрос, который записан в данном
+              блоке. Не уверен, что он будет таким же длинным как этот, но все
+              же
             </div>
+          </div>
+          <div class="questions_faq_item">
+            <div class="questions_faq_item_text">
+              Что если мне не понравятся уроки? Смогу ли я вернуть деньги за
+              <br />
+              обучение?
+            </div>
+          </div>
+          <div class="questions_faq_hidden">
+            <div class="questions_faq_hidden_text">
+              Здесь я напишу ответ на тот самый вопрос, который записан в данном
+              блоке. Не уверен, что он будет таким же длинным как этот, но все
+              же
+            </div>
+          </div>
         </div>
-        <h3 class="education_block_header">
-            Вождение
-        </h3>
-        <div class="education_block_text">
-            Уроки по вождению начинаются и заканчиваются в точках начала вождения
-            <br><br>
-            Занятия проводятся как на лицензированном автодроме, так и по городу
-        </div>
-        <div class="education_map">
-            <iframe class="education_map_yandex" src="https://yandex.ru/map-widget/v1/?um=constructor%3A943bdf3d082f5b3dcf9e8b56c60d623fa949253a51b687b308472b7f519599cf&amp;source=constructor" frameborder="0">
-            </iframe>
-        </div>
-        <!-- <div class="education_legend">
-            <div class="education_legend_item">
-                <div class="education_legend_item_icon">
-                    <img src="/icons/Cone.png" alt="Автодром"> 
-                </div>
-                <div class="education_legend_item_description">
-                    Автодром
-                </div>
+        <form class="questions_form">
+          <div class="questions_form_header">
+            Остались вопросы?
+          </div>
+          <div class="questions_form_input_block">
+            <div class="questions_form_input_block_short">
+              <input class="questions_form_input_block_short_item" type="text" name="username" placeholder="Ваше имя"></input>
+              <input class="questions_form_input_block_short_item" type="text" name="usertelephone" placeholder="Ваш телефон"></input>
             </div>
-            <div class="education_legend_item">
-                <div class="education_legend_item_icon">
-                    <img src="/icons/Car.png" alt="Точка начала вождения">
-                </div>
-                <div class="education_legend_item_description">
-                    Точка начала вождения
-                </div>
-            </div>
-        </div> -->
-    </section>
-
-    <section id="questions" class="questions">
-        <div class="text_under_block_header">
-            ВОПРОС-ОТВЕТ
-        </div>
-        <h2 class="block_header">
-            Часто задаваемые вопросы
-        </h2>
-        <div class="questions_lines">
-            <div class="questions_lines_item">
-                <div class="questions_lines_item_text">
-                    Занятия по вождению тоже онлайн?
-                </div>
-            </div>
-            <div class="questions_lines_hidden">
-                <div class="questions_lines_hidden_text">
-                    Ну конечно же нет:) Заняти по вождению начинаются и заканчиваются в выбранной точке вождения. А вообще не обращайте внимание на текст, я его еще не везде исправил. Спасибо)
-                </div>
-            </div>
-            <div class="questions_lines_item">
-                <div class="questions_lines_item_text">
-                    Где находится Ваш автодром?
-                </div>
-            </div>
-            <div class="questions_lines_hidden">
-                <div class="questions_lines_hidden_text">
-                    Ну конечно же нет:) Заняти по вождению начинаются и заканчиваются в выбранной точке вождения. А вообще не обращайте внимание на текст, я его еще не везде исправил. Спасибо)
-                </div>
-            </div>
-            <div class="questions_lines_item">
-                <div class="questions_lines_item_text">
-                    Какие документы я получу после обучения?
-                </div>
-            </div>
-            <div class="questions_lines_hidden">
-                <div class="questions_lines_hidden_text">
-                    Ну конечно же нет:) Заняти по вождению начинаются и заканчиваются в выбранной точке вождения. А вообще не обращайте внимание на текст, я его еще не везде исправил. Спасибо)
-                </div>
-            </div>
-            <div class="questions_lines_item">
-                <div class="questions_lines_item_text">
-                    Как я могу получить бумажную копию договора?
-                </div>
-            </div>
-            <div class="questions_lines_hidden">
-                <div class="questions_lines_hidden_text">
-                    Ну конечно же нет:) Заняти по вождению начинаются и заканчиваются в выбранной точке вождения. А вообще не обращайте внимание на текст, я его еще не везде исправил. Спасибо)
-                </div>
-            </div>
-            <div class="questions_lines_item">
-                <div class="questions_lines_item_text">
-                    Где находится ваш офис?
-                </div>
-            </div>
-            <div class="questions_lines_hidden">
-                <div class="questions_lines_hidden_text">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa temporibus porro quaerat dolorem doloribus ut doloremque, facere ex impedit quo iusto ducimus, odit autem fugit eius unde. Officiis, autem eveniet. Ну конечно же нет:) Заняти по вождению начинаются и заканчиваются в выбранной точке вождения. А вообще не обращайте внимание на текст, я его еще не везде исправил. Спасибо)
-                </div>
-            </div>
-        </div>
-        <div class="questions_text_under_button">
-            Не нашли ответ на свой вопрос? Оставьте заявку на консультацию
-        </div>
-        <button class="button button_in_block button_in_bright_block button_in_questions_block">
-            ПОЛУЧИТЬ <br> КОНСУЛЬТАЦИЮ
-        </button>
-    </section>
+            <input class="questions_form_input_block_short_item long" type="text" name="question" placeholder="Ваш вопрос"></input>
+          </div>
+          <button class="questions_form_submit">Отправить</button>
+        </form>
+      </section>
+    </main>
 
     <footer>
-        <div class="footer_narrow">
-            <div class="footer_narrow_over_line">
-                <div class="footer_narrow_over_line_logo">
-                    <img src="/icons/Logo_white.png" alt="Логотип компании">
-                </div>
-                <div class="footer_narrow_over_line_social">
-                    <div class="footer_narrow_over_line_social_item">
-                        <img src="/icons/vk.svg" alt="vk">
-                    </div>
-                    <div class="footer_narrow_over_line_social_item">
-                        <img src="/icons/instagram.svg" alt="instagram">
-                    </div>
-                    <div class="footer_narrow_over_line_social_item">
-                        <img src="/icons/youtube.svg" alt="youtube">
-                    </div>
-                    <div class="footer_narrow_over_line_social_item">
-                        <img src="/icons/facebook.svg" alt="facebook">
-                    </div>
-                </div>
-            </div>
-            <div class="footer_narrow_line">
-            </div>
-            <div class="footer_narrow_under_line">
-                <div class="footer_narrow_under_line_phone">
-                    +7 (903) 406-57-59
-                </div>
-                <div class="footer_narrow_under_line_city">
-                    г. Таганрог
-                </div>
-            </div>
-            <div class="footer_narrow_text">
-                Частное Учреждение Дополнительного
-                Профессионального Образования Автошкола "Приоритет"
-                <br>
-                ОГРН 1046162001027 / ИНН 6162040671
-                <br>
-                Юр. адрес: 344034, г. Ростов-на-Дону, пер. Саперный Спуск, д. 30
-                <br>
-                Обучение вождению в г. Ростове-на-Дону
-                <br>
-                Лицензия на осуществление образовательной деятельности:
-                №3930 от 28.05.2014 г. Действует БЕССРОЧНО.
-            </div>
-            <div class="footer_narrow_legals">
-                    <br>
-                    <a href="#">Сведения об образовательной организации</a>
-                    <br>
-                    <a href="#">Политика конфиденциальности</a>
-                    <br>
-                    <a href="#">Условия договора оферты</a>
-            </div>
+      <div class="footer_box">
+        <div class="footer_box_text">
+          ЧУ ДПО Автошкола Приоритет 2004г - 2020г
         </div>
+        <div class="footer_box_divider"></div>
+        <a href="#" class="footer_box_link">
+          Пользовательское соглашение
+        </a>
+        <div class="footer_box_divider"></div>
+        <a href="#" class="footer_box_link">
+          Условия конфиденциальности
+        </a>
+      </div>
     </footer>
 
-    <script>
-        var coll = document.getElementsByClassName("questions_lines_item");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            }
-            });
-        }
-    </script>
-
-    <script>
-        var coll = document.getElementsByClassName("education_lines_item");
-        var i;
-        
-        for (i = 0; i < coll.length; i++) {
-            coll[i].addEventListener("click", function() {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.maxHeight){
-                content.style.maxHeight = null;
-            } else {
-                content.style.maxHeight = content.scrollHeight + "px";
-            }
-            });
-        }
-    </script>
-    
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/collapse.js"></script>
+  </body>
 </html>
